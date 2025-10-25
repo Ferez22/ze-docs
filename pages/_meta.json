@@ -1,6 +1,8 @@
 {
   "index": "Introduction",
-  "getting-started": "Getting Started",
+  "": {
+    "type": "separator"
+  },
   "good-to-know": {
     "type": "separator",
     "title": "Good to know"
@@ -11,7 +13,15 @@
     "title": "Projects"
   },
   "mycroservices": "Mycro Services",
-  "": {
+  "-": {
+    "type": "separator"
+  },
+  "heimlab": "Heimlab",
+  "--": {
+    "type": "separator"
+  },
+  "ze-stonks": "Ze Stonks",
+  "---": {
     "type": "separator"
   },
   "hannibals-army": "Hannibal's Army",
