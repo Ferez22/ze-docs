@@ -1,8 +1,10 @@
 # Cloudflare
 
-This guide explains how to set up Cloudflare Tunnels and connect them to your own domain, including domain configuration, Docker setup, and connecting running services.
+This guide explains how to set up Cloudflare Tunnels and connect them to your own domain, including domain configuration, Docker setup, and connecting running services. Useful links at the bottom of the page.
 
-#### 🔗 Step 1 — Connect Your Domain to Cloudflare
+## Setup
+
+### Step 1 — Connect Your Domain to Cloudflare
 
 1. Create a Cloudflare Account
    Go to https://dash.cloudflare.com and create an account if you don’t already have one.
@@ -18,7 +20,7 @@ This guide explains how to set up Cloudflare Tunnels and connect them to your ow
 4. Verify Domain Connection
    • Once propagated, your domain will show as Active in the Cloudflare dashboard.
 
-#### 🐳 Step 2 — Create a Cloudflare Tunnel with Docker
+### Step 2 — Create a Cloudflare Tunnel with Docker
 
 Cloudflare Tunnels let you securely connect your local or containerized services to the internet without exposing public IPs or opening ports.
 
@@ -29,9 +31,9 @@ Cloudflare Tunnels let you securely connect your local or containerized services
   4.  Give it a name (e.g. myapp-tunnel)
   5.  Copy the generated Tunnel Token — you’ll need it in the next step
 
-#### ⚙️ Step 3 — Configure the Tunnel to Point to Your Service
+### ️ Step 3 — Configure the Tunnel to Point to Your Service
 
-##### Using config.yml
+#### Using config.yml
 
 For more control, you can use a configuration file. Create a directory, e.g. cloudflare-config, and inside it add a config.yml file:
 
@@ -46,3 +48,10 @@ ingress:
     service: http://host.docker.internal:5173
   - service: http_status:404
 ```
+
+## Useful links
+
+- **create cloudflare tunnel**  
+   https://www.crosstalksolutions.com/cloudflare-tunnel-easy-setup/
+- **or this using docker compose and env variables**
+  https://medium.com/@svenvanginkel/self-hosting-securely-with-cloudflare-zero-trust-tunnels-0a9169378f78
