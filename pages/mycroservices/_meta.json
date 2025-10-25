@@ -1,4 +1,6 @@
 {
   "mycro-services-boilerplate": "Mycro Services Boilerplate",
-  "database": "Database"
+  "database": "Database",
+  "frontend": "Frontend",
+  "backend": "Backend"
 }
