@@ -37,7 +37,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
   footer: {
-    text: "ze-docs - by fares",
+    text: "ze-docs - by fares - made using Nextra",
   },
   head: (
     <>
