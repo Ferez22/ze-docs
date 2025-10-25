@@ -24,5 +24,26 @@
     "type": "page",
     "href": "https://x.com/ferezch?s=21",
     "newWindow": true
+  },
+  "socials": {
+    "title": "Socials",
+    "type": "menu",
+    "items": [
+      {
+        "title": "Portfolio",
+        "href": "https://portfolio.ferez.cloud",
+        "newWindow": true
+      },
+      {
+        "title": "Instagram",
+        "href": "https://www.instagram.com/mukke_ferez?igsh=NWZqbnB5eGwyeHgz",
+        "newWindow": true
+      },
+      {
+        "title": "Soundcloud",
+        "href": "https://soundcloud.com/ferez-197925187",
+        "newWindow": true
+      }
+    ]
   }
 }
