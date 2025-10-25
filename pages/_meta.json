@@ -1,9 +1,14 @@
 {
   "index": "Introduction",
   "getting-started": "Getting Started",
+  "good-to-know": {
+    "type": "separator",
+    "title": "Good to know"
+  },
   "cloudflare": "Cloudflare",
-  "--": {
-    "type": "separator"
+  "Projects": {
+    "type": "separator",
+    "title": "Projects"
   },
   "mycroservices": "Mycro Services",
   "": {

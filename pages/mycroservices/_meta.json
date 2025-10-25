@@ -1,5 +1,9 @@
 {
   "mycro-services-boilerplate": "Mycro Services Boilerplate",
+  "Services": {
+    "type": "separator",
+    "title": "Services"
+  },
   "database": "Database",
   "frontend": "Frontend",
   "backend": "Backend"
