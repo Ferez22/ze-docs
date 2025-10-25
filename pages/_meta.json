@@ -1,8 +1,15 @@
 {
   "index": "Introduction",
   "getting-started": "Getting Started",
+  "cloudflare": "Cloudflare",
+  "--": {
+    "type": "separator"
+  },
   "mycroservices": "Mycro Services",
-  "general": "General",
+  "": {
+    "type": "separator"
+  },
+  "hannibals-army": "Hannibal's Army",
   "about": {
     "title": "About",
     "type": "page"

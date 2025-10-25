@@ -1,9 +1,12 @@
+import { Steps } from "nextra/components";
+
 # Cloudflare
 
 This guide explains how to set up Cloudflare Tunnels and connect them to your own domain, including domain configuration, Docker setup, and connecting running services. Useful links at the bottom of the page.
 
 ## Setup
 
+<Steps>
 ### Step 1 — Connect Your Domain to Cloudflare
 
 1. Create a Cloudflare Account
@@ -48,6 +51,8 @@ ingress:
     service: http://host.docker.internal:5173
   - service: http_status:404
 ```
+
+</Steps>
 
 ## Useful links
 
